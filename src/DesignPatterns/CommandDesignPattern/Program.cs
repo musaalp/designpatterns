@@ -11,7 +11,9 @@
             var updateUserCommand = new UpdateUserCommand(userOperations);
             var deleteUserCommand = new DeleteUserCommand(userOperations);
 
-            databaseCommander.Execute(createUserCommand, updateUserCommand, deleteUserCommand);
+            databaseCommander.Execute(createUserCommand);
+            databaseCommander.Execute(updateUserCommand);
+            databaseCommander.Execute(deleteUserCommand);
         }
     }
 }

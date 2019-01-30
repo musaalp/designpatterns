@@ -2,12 +2,9 @@
 {
     public class DatabaseCommander
     {
-        public void Execute(params ICommand[] commands)
+        public void Execute(ICommand command)
         {
-            foreach (var command in commands)
-            {
-                command.Execute();
-            }
+            command.Execute();
         }
     }
 }

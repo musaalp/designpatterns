@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace ChainOfResponsibility
+namespace ChainOfResponsibilityDesignPattern
 {
-    public class TeamResponsible : RequestPermissionResponsible
+    class HumanResourceResponsible : RequestPermissionResponsible
     {
         protected override void Approve(object sender, RequestPermissionArgs args)
         {

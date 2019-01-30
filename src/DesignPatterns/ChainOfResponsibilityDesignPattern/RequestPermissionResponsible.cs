@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ChainOfResponsibility
+namespace ChainOfResponsibilityDesignPattern
 {
     public abstract class RequestPermissionResponsible
     {

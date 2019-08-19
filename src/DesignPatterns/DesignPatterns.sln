@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{A47CA67C-ECBE-4A06-BCD2-CABB73034073}"
 EndProject
@@ -23,7 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeDesignPattern", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorDesignPattern", "IteratorDesignPattern\IteratorDesignPattern.csproj", "{5A76E461-072D-4E0A-99D8-7EADA1E48503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptorDesignPattern", "AdaptorDesignPattern\AdaptorDesignPattern.csproj", "{0C1E689F-654A-47AC-90FA-7718BDFD146E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaptorDesignPattern", "AdaptorDesignPattern\AdaptorDesignPattern.csproj", "{0C1E689F-654A-47AC-90FA-7718BDFD146E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryDesignPattern", "AbstractFactoryDesignPattern\AbstractFactoryDesignPattern.csproj", "{8F49D5C9-16BE-4F3E-99BE-78E015E83546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodDesignPattern", "FactoryMethodDesignPattern\FactoryMethodDesignPattern.csproj", "{82C55259-1890-4E0F-A0B3-B2C548A6CD2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{0C1E689F-654A-47AC-90FA-7718BDFD146E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C1E689F-654A-47AC-90FA-7718BDFD146E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C1E689F-654A-47AC-90FA-7718BDFD146E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F49D5C9-16BE-4F3E-99BE-78E015E83546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F49D5C9-16BE-4F3E-99BE-78E015E83546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F49D5C9-16BE-4F3E-99BE-78E015E83546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F49D5C9-16BE-4F3E-99BE-78E015E83546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C55259-1890-4E0F-A0B3-B2C548A6CD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C55259-1890-4E0F-A0B3-B2C548A6CD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C55259-1890-4E0F-A0B3-B2C548A6CD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C55259-1890-4E0F-A0B3-B2C548A6CD2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +88,8 @@ Global
 		{1E159667-42F8-40F8-B9B0-77FB3E9C519D} = {4830AD4A-A171-465F-A2F8-A672664ECFDA}
 		{5A76E461-072D-4E0A-99D8-7EADA1E48503} = {FA81C536-640D-4931-9698-341F3432A6BC}
 		{0C1E689F-654A-47AC-90FA-7718BDFD146E} = {4830AD4A-A171-465F-A2F8-A672664ECFDA}
+		{8F49D5C9-16BE-4F3E-99BE-78E015E83546} = {A47CA67C-ECBE-4A06-BCD2-CABB73034073}
+		{82C55259-1890-4E0F-A0B3-B2C548A6CD2A} = {A47CA67C-ECBE-4A06-BCD2-CABB73034073}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F00C8B41-2293-4801-BF76-38434D0CEEF3}

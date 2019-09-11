@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorDesignPattern", "It
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaptorDesignPattern", "AdaptorDesignPattern\AdaptorDesignPattern.csproj", "{0C1E689F-654A-47AC-90FA-7718BDFD146E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryDesignPattern", "AbstractFactoryDesignPattern\AbstractFactoryDesignPattern.csproj", "{8F49D5C9-16BE-4F3E-99BE-78E015E83546}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryDesignPattern", "AbstractFactoryDesignPattern\AbstractFactoryDesignPattern.csproj", "{8F49D5C9-16BE-4F3E-99BE-78E015E83546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodDesignPattern", "FactoryMethodDesignPattern\FactoryMethodDesignPattern.csproj", "{82C55259-1890-4E0F-A0B3-B2C548A6CD2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodDesignPattern", "FactoryMethodDesignPattern\FactoryMethodDesignPattern.csproj", "{82C55259-1890-4E0F-A0B3-B2C548A6CD2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDesignPattern", "ObserverDesignPattern\ObserverDesignPattern.csproj", "{F686301D-BF59-43D0-A2FA-21081E325FA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{82C55259-1890-4E0F-A0B3-B2C548A6CD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82C55259-1890-4E0F-A0B3-B2C548A6CD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82C55259-1890-4E0F-A0B3-B2C548A6CD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F686301D-BF59-43D0-A2FA-21081E325FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F686301D-BF59-43D0-A2FA-21081E325FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F686301D-BF59-43D0-A2FA-21081E325FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F686301D-BF59-43D0-A2FA-21081E325FA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{0C1E689F-654A-47AC-90FA-7718BDFD146E} = {4830AD4A-A171-465F-A2F8-A672664ECFDA}
 		{8F49D5C9-16BE-4F3E-99BE-78E015E83546} = {A47CA67C-ECBE-4A06-BCD2-CABB73034073}
 		{82C55259-1890-4E0F-A0B3-B2C548A6CD2A} = {A47CA67C-ECBE-4A06-BCD2-CABB73034073}
+		{F686301D-BF59-43D0-A2FA-21081E325FA9} = {FA81C536-640D-4931-9698-341F3432A6BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F00C8B41-2293-4801-BF76-38434D0CEEF3}

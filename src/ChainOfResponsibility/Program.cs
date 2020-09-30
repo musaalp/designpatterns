@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChainOfResponsibility.AnotherSample;
+using System;
 
 namespace ChainOfResponsibilityDesignPattern
 {
@@ -6,20 +7,10 @@ namespace ChainOfResponsibilityDesignPattern
     {
         static void Main(string[] args)
         {
-            var teamResponsible = new TeamResponsible();
-            var departmentResponsible = new DepartmentResponsible();
-            var humanResourceResponsible = new HumanResourceResponsible();
+            var handler = new Authenticator(new Logger(new Compressor(null)));                                    
 
-            teamResponsible.NextResponsible = departmentResponsible;
-            departmentResponsible.NextResponsible = humanResourceResponsible;
-
-            teamResponsible.RequestPermission(new RequestPermissionArgs
-            {
-                Days = 15,
-                Department = "IT",
-                StartDate = DateTime.Now,
-                FinishDate = DateTime.Now.AddDays(15)
-            });
+            var server = new WebServer(handler);
+            server.Handle(new HttpRequest("admin", "12345"));
         }
     }
 }
